@@ -1,2 +1,2 @@
 # javascript-test
-Javascript
+Javascript files
