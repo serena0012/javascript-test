@@ -1,0 +1,17 @@
+#!/usr/bin/node
+
+/* Accessing element of an array */
+
+const famousSayings = ['Fortune favors the brave.', 'A joke is a very serious thing.', 'Where there is love there is life.'];
+
+const listItem = famousSayings[0];
+console.log(listItem);
+console.log(famousSayings[2]);
+console.log(famousSayings[3]); // gives undefined
+
+
+//Update element of an array
+
+let groceryList = ['bread', 'tomatoes', 'milk'];
+groceryList[1] = 'avocados'
+console.log(groceryList);
