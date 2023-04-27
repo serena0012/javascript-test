@@ -1,0 +1,13 @@
+body {
+    background-color: rgba(14, 35, 226, 0.473);
+}
+
+
+#digitalClock {
+    color: #fff;
+    font-size: 100px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 150px;
+    padding: 100px;
+}
