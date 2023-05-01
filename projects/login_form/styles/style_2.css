@@ -1,0 +1,95 @@
+/* Styles for screens smaller than 600px */
+@media screen and (max-width: 600px) {
+
+    /* Adjust font size and padding for smaller screens */
+    h1 {
+        font-size: 24px;
+        padding: 10px;
+    }
+
+    label,
+    input,
+    button {
+        font-size: 16px;
+        padding: 10px;
+    }
+}
+
+/* Styles for screens larger than 600px */
+@media screen and (min-width: 600px) {
+
+    /* Increase font size and spacing for larger screens */
+    h1 {
+        font-size: 32px;
+        padding: 20px;
+    }
+
+    label,
+    input,
+    button {
+        font-size: 20px;
+        padding: 20px;
+    }
+}
+
+/* Styles for all screens */
+.container {
+    max-width: 800px;
+    /* Set maximum width for the container */
+    margin: 0 auto;
+    /* Center the container on the page */
+}
+
+form {
+    display: flex;
+    /* Display form elements in a row */
+    flex-direction: column;
+    /* Set vertical layout for form elements */
+}
+
+.input-control {
+    margin: 10px 0;
+    /* Add margin between form elements */
+    display: flex;
+    /* Display input elements in a row */
+    flex-direction: column;
+    /* Set vertical layout for input elements */
+}
+
+label {
+    font-weight: bold;
+    /* Make labels bold */
+}
+
+input {
+    padding: 10px;
+    /* Add padding to input fields */
+    font-size: 16px;
+    /* Set font size for input fields */
+    border: 1px solid #ccc;
+    /* Add border to input fields */
+}
+
+button {
+    background-color: #2196f3;
+    /* Set background color for the button */
+    color: #fff;
+    /* Set text color for the button */
+    border: none;
+    /* Remove border from the button */
+    padding: 10px 20px;
+    /* Add padding to the button */
+    font-size: 20px;
+    /* Set font size for the button */
+    margin-top: 20px;
+    /* Add margin above the button */
+    cursor: pointer;
+    /* Change cursor to pointer on hover */
+}
+
+.error {
+    color: red;
+    /* Set color for error messages */
+    font-size: 14px;
+    /* Set font size for error messages */
+}

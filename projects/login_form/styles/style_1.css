@@ -31,8 +31,9 @@ body {
 }
 
 form label {
-    color:#80808d;
+    color: #80808d;
 }
+
 #form button[type="submit"]:hover {
     background-color: #c6c6df;
 }
@@ -67,4 +68,17 @@ form label {
     color: #ff3860;
     font-size: 9px;
     height: 13px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    #form {
+        margin-top: 10vh;
+        padding: 10px;
+        height: 10%;
+    }
+
+    #form button {
+        margin-top: 20px;
+    }
 }
