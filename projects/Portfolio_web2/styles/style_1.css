@@ -1,0 +1,114 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&w=600');
+    /*background-image: url('https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&w=600');*/
+    /*background-image: url('https://images.pexels.com/photos/633409/pexels-photo-633409.jpeg?auto=compress&cs=tinysrgb&w=600');*/
+
+}
+
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #81a5b8;
+}
+
+#navbar ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+}
+
+#navbar li {
+    display: inline-block;
+    margin: 6px;
+    padding: 0px;
+}
+
+#navbar a {
+    display: block;
+
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+#navbar a:hover {
+    color: gold;
+}
+
+#welcome-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#welcome-section h1 {
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+/* CSS styles for the icon */
+
+.uil-calculator-alt {
+    color: #81a5b8;
+}
+
+.uil-clock-five {
+    color: #81a5b8;
+}
+
+/*Hover Icons*/
+.uil-github-alt:hover {
+    color: gold;
+}
+
+.uil-clock-five:hover {
+    color: gold;
+}
+
+.uil-clock-five:hover {
+    color: gold;
+}
+
+#projects {
+    margin-top: 100vh;
+}
+
+.project-tile {
+    background-color: #dde6eb;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+
+}
+
+#profile-link {
+    color: #84acc2;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #navbar {
+        position: static;
+        height: auto;
+    }
+
+    #navbar li {
+        display: block;
+    }
+
+    #welcome-section h1 {
+        font-size: 3rem;
+    }
+}
