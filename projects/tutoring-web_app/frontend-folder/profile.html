@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutor Profile</title>
+    <link rel="stylesheet" href="styles/style_profile.css">
+</head>
+
+<body>
+    <h1 id="logo">Naijatutorial</h1>
+    <h1>Tutor Profile</h1>
+    <form id="profileform" action="/api/profile" method="post">
+        <p>
+            <label for="firstname">Enter your firstname:</label>
+            <input id="firstname" type="text" placeholder="Firstname" name="firstname">
+        </p>
+        <p>
+            <label for="surname">Enter your surname:</label>
+            <input id="surname" type="text" placeholder="Surname" name="surname">
+        </p>
+        <p>
+        <label for="phone">Phone Number:</label>
+        <input type="text" id="phone" name="phone" placeholder="Enter your phone number" required>
+        </p>
+        <p>
+            <label for="email">Email Address:</label>
+            <input type="text" id="email" name="email" placeholder="Enter your email address" required>
+            </p>
+        <p>
+            <label for="Homeaddress"> Home Address:</label>
+            <br>
+            <textarea id="others" rows="10" cols="40" name="others?" placeholder="17, Williams Crecent, Ikeja Lagos."></textarea>
+        </p>
+        <p>
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender">
+                <option value="">Select your gender...</option>
+                <option value="m">Male</option>
+                <option value="f">Female</option>
+            </select>
+        </p>
+        <p>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date">
+        </p>
+        <p>
+            <label for="Education"> Educational Qualification</label>
+            <select name="education" id="education">
+                <option value="">Select Educational Qualification</option>
+                <option value="nd">ND</option>
+                <option value="nce">NCE</option>
+                <option value="hnd">HND</option>
+                <option value="bsc">BSC</option>
+                <option value="bsc(ed)">BSC(ed)</option>
+                <option value="msc">MSC</option>
+                <option value="msc(ed)">MSC(ed)</option>
+                <option value="phd">PhD</option>
+                <option value="Others">Others</option>
+            </select>
+        </p>
+        <p>
+            <label for="others">If you chose others above specify in the space provided below:</label>
+            <br>
+            <textarea id="others" rows="10" cols="40" name="others?" placeholder="Type something here"></textarea>
+        </p>
+        <p>
+            <label for="school">School Attended:</label>
+            <select id="school" name="school">
+                <option value="">Select a school...</option>
+            </select>
+        </p>
+        <p>
+            <label for="experience">Years of teaching experience</label>
+            <select id="experience" name="experience">
+                <option value="">Select Years of Experience</option>
+                <option value="">Below 5 years</option>
+                <option value="">Between 5 and 10 years</option>
+                <option value="">Above 10 years</option>
+            </select>
+        </p>
+        <p>
+            <label for="Headline"> Write a headline that summarizes you in one sentence</label>
+            <br>
+            <textarea id="others" rows="10" cols="40" name="others?" placeholder="E.g A highly practical physics teacher with track records of excellence."></textarea>
+        </p>
+        <button type="submit">Submit</button>
+
+
+    </form>
+
+    <script src="./scripts/script_form.js"></script>
+</body>
+
+</html>

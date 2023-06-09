@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Roboto:wght@300&display=swap" rel="stylesheet');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    z-index: 100;
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #06370f;
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 5%;
+}
+
+#menu {
+    list-style-type: none;
+    margin: -25px;
+    padding: 0;
+    display: flex;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: #06370f;
+    padding: 0px 40px;
+    justify-content: end;
+
+}
+
+/* Login Button */
+#menu .login-button {
+    margin-left: 1.5rem;
+    /* Add margin to separate from other menu items */
+}
+
+/* Additional CSS for positioning the login button */
+#menu .login-button {
+    margin-left: auto;
+    /* Push the login button to the right */
+}
+
+.image {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    /* Adjust the height as needed */
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+}
+
+.centered-search {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 66%;
+    /* Add this line */
+    background-color: #56ab2f;
+    padding: 0;
+    border-radius: 2px;
+}
+
+#search-form input[type="text"] {
+    padding: 15px;
+    width: 23.3rem;
+    margin: 5px;
+    border: 2px solid #71c3f7;
+    border-radius: 5px;
+}
+
+#search-form button {
+    padding: 10px;
+    width: 8rem;
+    margin: 5px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background-color: #56ab2f;
+    cursor: pointer;
+}
+
+button[type="submit"] .uil.uil-search-alt {
+    /* Add your desired styles here */
+    color: #fff;
+    font-size: 20px;
+}
+
+#search-form button:hover{
+    background-color: #06370f;
+    transition: 0.3s ease-in-out;
+}
+
+
+
+#search-form input[type="text"],
+#search-form button {
+    border-style: solid;
+    margin-right: -5px;
+}
+
+#homepage {
+    position: relative;
+    /* Add this line */
+    height: 100vh;
+    /* Adjust the height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+#homepage h1 {
+    margin-top: -40rem;
+    margin-right: -47rem;
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    text-align: left;
+    /* Adjust the margin-top as needed */
+}
+
+#homepage p {
+
+    color: #fff;
+    font-size: 1.5rem;
+    margin-top: -35rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 1rem;
+
+}
+
+#featured-tutors {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tutor-card {
+    flex: 0 0 calc(27% - 10px);
+    /* Adjust the width as needed */
+    width: 300px;
+    padding: 10px;
+    padding-top: 25rem;
+    margin: 50px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.tutor-card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 5rem;
+}
+
+.tutor-card img,
+.tutor-card h3,
+.tutor-card p {
+    margin-top: -1rem;
+}
+
+/*login css*/
